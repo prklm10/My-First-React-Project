@@ -1,0 +1,45 @@
+/*Table Styling*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.col-item {
+  width: 60%;
+}
+.col-quantity {
+  width: 20%;
+  text-align: center;
+}
+.col-price {
+  width: 20%;
+}
+table th,
+table td {
+  border: 1px solid #869960;
+  padding: 10px;
+}
+table th {
+  text-align: left;
+  background-color: #869960;
+  color: #fff;
+}
+table.grocery-list td:nth-child(2),
+table.grocery-list td:nth-child(3) {
+  text-align: center;
+}
+
+table tr:nth-child(odd) td {
+  background-color: #e5e9dc;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}
