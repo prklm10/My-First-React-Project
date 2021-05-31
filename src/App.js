@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./Nav";
 import Home from "./Home";
 import MyTable from "./MyTable";
+import Form from "./Form";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
           <Switch>
             <Route path="/table">
               <MyTable />
+            </Route>
+            <Route path="/form">
+              <Form />
             </Route>
             <Route path="/">
               <Home />

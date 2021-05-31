@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import l from "./squirrel.jpg";
+import { Link } from "react-router-dom";
 function Nav() {
   return (
     <header>
@@ -9,16 +10,16 @@ function Nav() {
       <nav className="site-nav">
         <ul className="group">
           <li>
-            <a href="index">Home</a>
+            <Link to="index">Home</Link>
           </li>
           <li>
-            <a href="favorite-bread">About</a>
+            <Link to="about">About</Link>
           </li>
           <li>
-            <a href="table">My Table</a>
+            <Link to="table">Table</Link>
           </li>
           <li>
-            <a href="form">My Form</a>
+            <Link to="form">Form</Link>
           </li>
         </ul>
       </nav>
