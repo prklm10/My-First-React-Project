@@ -5,6 +5,26 @@ function Home() {
   return (
     <>
       <div className="main-area">
+        <h2>Main Heading</h2>
+        <nav class="ui-menu">
+          <ul class="group">
+            <li>
+              <a class="ui-home" href="#">
+                home
+              </a>
+            </li>
+            <li>
+              <a class="ui-profile" href="#">
+                profile
+              </a>
+            </li>
+            <li>
+              <a class="ui-settings" href="#">
+                settings
+              </a>
+            </li>
+          </ul>
+        </nav>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum maxime
           asperiores dolorem veniam adipisci, iure fugit recusandae. Hic
@@ -15,13 +35,8 @@ function Home() {
           omnis, laborum consequuntur repudiandae illum veniam delectus
           inventore.
         </p>
-        <div className="image-banner">
-          <img src={l} alt="squirrel on train tracks" />
-          <div className="image-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-            porro illo eligendi aut voluptatibus praesentium in minima numquam.
-            Dolores, ad.
-          </div>
+        <div className="bird">
+          <p>Bird Image</p>
         </div>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci

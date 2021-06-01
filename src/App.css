@@ -1,6 +1,6 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 html {
   background-color: #869960;
@@ -13,15 +13,17 @@ body {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #fff;
-  padding-left: 40px;
-  padding-right: 40px;
+  background: url("../images/color-tile.png") left bottom repeat-x,
+    #fff url("../images/color-tile.png") left top repeat-x;
+  padding: 15px 0px 15px 40px;
   box-sizing: border-box;
 }
 header {
   padding-top: 20px;
-
   color: #617140;
+  background-image: url("../images/flower.jpg");
+  background-position: right center;
+  background-repeat: no-repeat;
 }
 header h1 {
   margin: 0;
@@ -62,7 +64,7 @@ header p {
 .content-area {
   border-top: 3px solid #e5e9dc;
   border-bottom: 3px solid #e5e9dc;
-  padding-top: 20px;
+  padding-top: 0px;
   padding-bottom: 20px;
 }
 .main-area {
@@ -71,8 +73,47 @@ header p {
   padding-right: 40px;
   box-sizing: border-box;
 }
+/*Sprites*/
+.ui-menu ul {
+  margin: 0;
+  padding: 0;
+}
+.ui-menu li {
+  list-style: none;
+  float: left;
+  margin-right: 20px;
+}
+.ui-menu a {
+  display: block;
+  height: 50px;
+  width: 50px;
+  background-image: url("../images/sprites.png");
+  text-indent: -999999px;
+}
+.ui-home:hover {
+  background-position: 50px 0;
+}
+.ui-profile {
+  background-position: 0px -50px;
+}
+.ui-profile:hover {
+  background-position: 50px -50px;
+}
+.ui-settings {
+  background-position: 0px 50px;
+}
+.ui-settings:hover {
+  background-position: 50px 50px;
+}
+/*Sprites*/
 img {
   width: 100%;
+}
+.bird {
+  padding: 100px 0;
+  background: #c2bbba url("../images/bird.jpg") center center;
+  background-size: cover;
+  text-align: center;
 }
 /* overlapping and transparent image */
 .image-banner img {
@@ -91,12 +132,13 @@ img {
 
 .sidebar {
   width: 34%;
+  letter-spacing: normal;
   float: left;
+  padding: 20px 40px;
   background-color: #e5e9dc;
-  padding: 20px 40px 20px 40px;
-
+  background-image: linear-gradient(to bottom, pink, #fff);
   box-sizing: border-box;
-  font-size: 85%;
+  font-size: 120%;
 }
 footer {
   text-align: center;
