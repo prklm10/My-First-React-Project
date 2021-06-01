@@ -13,7 +13,7 @@ body {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
-  background: url("../images/color-tile.png") left bottom repeat-x,
+  background: url("./images/color-tile.png") left bottom repeat-x,
     #fff url("../images/color-tile.png") left top repeat-x;
   padding: 15px 0px 15px 40px;
   box-sizing: border-box;
@@ -21,7 +21,7 @@ body {
 header {
   padding-top: 20px;
   color: #617140;
-  background-image: url("../images/flower.jpg");
+  background-image: url("./images/flower.jpg");
   background-position: right center;
   background-repeat: no-repeat;
 }
@@ -87,7 +87,7 @@ header p {
   display: block;
   height: 50px;
   width: 50px;
-  background-image: url("../images/sprites.png");
+  background-image: url("./images/sprites.png");
   text-indent: -999999px;
 }
 .ui-home:hover {
