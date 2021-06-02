@@ -28,7 +28,7 @@ function Form() {
       <input type="submit" value="Sign In"></input>
       <label for="">
         <input
-          cltype="checkbox"
+          type="checkbox"
           name="remember"
           checked="checked"
           value="yes"
