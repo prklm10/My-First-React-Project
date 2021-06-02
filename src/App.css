@@ -14,7 +14,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   background: url("./images/color-tile.png") left bottom repeat-x,
-    #fff url("../images/color-tile.png") left top repeat-x;
+    #fff url("./images/color-tile.png") left top repeat-x;
   padding: 15px 0px 15px 40px;
   box-sizing: border-box;
 }
@@ -111,7 +111,7 @@ img {
 }
 .bird {
   padding: 100px 0;
-  background: #c2bbba url("../images/bird.jpg") center center;
+  background: #c2bbba url("./images/bird.jpg") center center;
   background-size: cover;
   text-align: center;
 }
