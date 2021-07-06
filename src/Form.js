@@ -26,11 +26,11 @@ function Form() {
         <option value="">Account Settings</option>
       </select>
       <input type="submit" value="Sign In"></input>
-      <label for="">
+      <label for="remember">
         <input
           type="checkbox"
           name="remember"
-          checked="checked"
+          checked="unchecked"
           value="yes"
         ></input>
         <span class="checkbox-text">Stay Signed In</span>
